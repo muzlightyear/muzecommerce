@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Muz's Products</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<div id="borderContainer">
+<div id="titleContainer">
+<h1><big>Our Products</big></h1>
+</div>
+<body>
+	<div class="browseButtons">
+	<div dataset-group="browseButton" id="home" >
+	<a href="index.html" class="buttonTag">Home</a>
+	</div>
+	<div dataset-group="browseButton" class="notLink" >
+	<a class="buttonTag">About</a>
+	</div>
+	<div dataset-group="browseButton" class="notLink">
+	<a class="buttonTag">Contact</a>
+	</div>
+</div>
+
+	<div dataset-group="products">
+		<div class="product">
+			<img src="shoes.jpg" height="400px" width="300px">
+			<div class="words">
+			<a dataset-group="details" class="name">White Shoes</a>
+			<a dataset-group="details" class="price">$10</a>
+			<a dataset-group="details" class="description">White unisex shoes. Not to be warn in mud for fear of dirt.</a>
+			<button class="addToCart">Add To Cart</button>
+		</div>
+		</div>
+
+		<div class="product">
+			<img src="car.jpg" height="400px" width="300px">
+			<div class="words">
+			<a dataset-group="details" class="name">Fancy Car</a>
+			<a dataset-group="details" class="price">$20</a>
+			<a dataset-group="details" class="description">A fancy car, only to be photographed. </a>
+			<button class="addToCart">Add To Cart</button>
+		</div>
+		</div>
+
+		<div class="product">
+			<img src="tshirt.jpg" height="400px" width="300px">
+			<div class="words">
+			<a dataset-group="details" class="name">A white T-Shirt</a>
+			<a dataset-group="details" class="price">FREE</a>
+			<a dataset-group="details" class="description">Never to be worn when eating.</a>
+			<button class="addToCart">Add To Cart</button>
+		</div>
+		</div>
+
+		<div class="product">
+			<img src="faceOil.jpg" height="400px" width="300px">
+			<div class="words">
+			<a dataset-group="details" class="name">Face Oil</a>
+			<a dataset-group="details" class="price">$200</a>
+			<a dataset-group="details" class="description">For oily skin.</a>
+			<button class="addToCart">Add To Cart</button>
+		</div>
+		</div>
+
+	</div>
+
+	<div class="addProduct">
+			<div id="addPDiv">
+			<a ><font color="#FFFFFF " id="addP">-Add a product-</a>
+			Name: <input type="text" id="nameInput" class="name"><br>
+			Price: <input type="text" id="priceInput" class = "price"></br>
+			Description: <input type="text" id="descriptionInput" class = "description"></br>
+			<input type="file" accept="image/png, image/jpg" id="image_input" class ="button">
+			<input type="submit" id="submitButton" class ="button">
+			</font>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
